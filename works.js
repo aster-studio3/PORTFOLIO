@@ -15,7 +15,7 @@ const CATEGORIES=[
  {slug:"food",name:"Food & Drink",blurb:"Appetizing ads for restaurants, cafés and beverage brands.",cover:""},
  {slug:"Homeware",name:"Homeware",blurb:"Interior styling, product showcases and cinematic home decor visuals.",cover:""},
  {slug:"Jewelry",name:"Jewelry",blurb:"Luxury product showcases and elegant cinematic campaigns for jewelry brands.",cover:""},
- {slug:"Fitness & Sports",name:"Fitness & Sports",blurb:"Dynamic promotional films for fitness brands, sports products and activewear.",cover:""},
+ {slug:"sports",name:"Fitness & Sports",blurb:"Dynamic promotional films for fitness brands, sports products and activewear.",cover:""},
  {slug:"Perfume",name:"Perfume",blurb:"Elegant fragrance campaigns and cinematic visuals for luxury perfume brands.",cover:""},
  {slug:"Pet Products",name:"Pet Products",blurb:"Creative product commercials and engaging visuals for pet brands and accessories.",cover:""},
 ];
