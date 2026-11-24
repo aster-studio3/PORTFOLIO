@@ -10,12 +10,14 @@
       src      = file path, e.g. "assets/work/cola.mp4"   poster = video thumbnail (optional)
    Empty src shows a colored placeholder. */
 const CATEGORIES=[
- {slug:"food",name:"Food & Drink",blurb:"Appetizing ads for restaurants, cafés and beverage brands.",cover:""},
- {slug:"fashion",name:"Fashion",blurb:"Campaign films and lookbooks for clothing and accessory brands.",cover:""},
  {slug:"beauty",name:"Beauty",blurb:"Skincare, fragrance and cosmetics visuals with a premium finish.",cover:""},
- {slug:"real-estate",name:"Real Estate",blurb:"Walkthroughs and renders that help properties sell.",cover:""},
- {slug:"tech",name:"Tech",blurb:"Product reveals and launch films for devices and apps.",cover:""},
- {slug:"automotive",name:"Automotive",blurb:"Cinematic car films and showroom imagery.",cover:""}
+ {slug:"fashion",name:"Fashion",blurb:"Campaign films and lookbooks for clothing and accessory brands.",cover:""},
+ {slug:"food",name:"Food & Drink",blurb:"Appetizing ads for restaurants, cafés and beverage brands.",cover:""},
+ {slug:"Homeware",name:"Homeware",blurb:"Interior styling, product showcases and cinematic home decor visuals.",cover:""},
+ {slug:"Jewelry",name:"Jewelry",blurb:"Luxury product showcases and elegant cinematic campaigns for jewelry brands.",cover:""},
+ {slug:"Fitness & Sports",name:"Fitness & Sports",blurb:"Dynamic promotional films for fitness brands, sports products and activewear.",cover:""},
+ {slug:"Perfume",name:"Perfume",blurb:"Elegant fragrance campaigns and cinematic visuals for luxury perfume brands.",cover:""},
+ {slug:"Pet Products",name:"Pet Products",blurb:"Creative product commercials and engaging visuals for pet brands and accessories.",cover:""},
 ];
 const WORK=[
  {title:"Cold Brew Launch",brand:"Brand name",category:"food",type:"video",ratio:"1/1",src:"",poster:"",featured:true},
