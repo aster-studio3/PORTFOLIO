@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — Aster Studio</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="index.html#top"><img src="assets/logo.png" alt="">ASTER</a>
+  <div class="links"><a href="index.html#work">Work</a><a href="index.html#services">Services</a><a href="index.html#process">Process</a><a class="btn solid" href="index.html#contact">Start a project</a></div>
+</div></nav>
+<header class="phead"><div class="wrap">
+  <a class="back" href="index.html#work">Back to all work</a>
+  <h1 id="cname"></h1>
+  <p class="lead" id="cblurb"></p>
+</div></header>
+<main><section class="work page"><div class="wrap">
+  <div class="grid" id="grid"></div>
+  <p class="none" id="none" hidden>Projects for this industry are coming soon.</p>
+  <h3 class="sub">Other industries</h3>
+  <div class="filters" id="others"></div>
+</div></section></main>
+<footer><div class="wrap">
+  <span style="display:flex;gap:.7rem;align-items:center"><img src="assets/logo.png" alt="">© <span id="yr"></span> Aster Studio</span>
+  <span>AI film and photography for brands</span>
+</div></footer>
+<script src="works.js"></script>
+<script src="common.js"></script>
+<script>
+const slug=new URLSearchParams(location.search).get("c");
+const cat=CATEGORIES.find(c=>c.slug===slug)||CATEGORIES[0];
+document.title=cat.name+" — Aster Studio";
+$("#cname").textContent=cat.name;$("#cblurb").textContent=cat.blurb||"";
+const items=WORK.filter(w=>w.category===cat.slug);
+items.forEach(w=>$("#grid").append(card(w)));
+$("#none").hidden=items.length>0;
+CATEGORIES.filter(c=>c!==cat).forEach(c=>{
+  const a=document.createElement("a");a.className="chip";a.href="category.html?c="+c.slug;a.textContent=c.name;$("#others").append(a);
+});
+</script>
+</body>
+</html>
