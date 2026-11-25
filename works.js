@@ -27,6 +27,8 @@ const WORK=[
 //  {title:"Street Lookbook",brand:"Brand name",category:"fashion",type:"image",ratio:"4/5",src:""},
  {title:"Signature Fragrance",brand:"Brand name",category:"beauty",type:"image",ratio:"9/16",src:"assets/Visual_editor_portfolio_showcase…_cc3e808e_2K.png",featured:true},
  {title:"Glow Serum Campaign",brand:"Brand name",category:"beauty",type:"image",ratio:"9/16",src:"assets/Visual_editor_portfolio_showcase…_cc83cd97_2K.png",poster:""},
+  {title:"Glow Serum Campaign",brand:"Brand name",category:"beauty",type:"image",ratio:"9/16",src:"assets/Visual_editor_portfolio_layout_s…_b396a58e_2K.png",poster:""},
+
 //  {title:"Skyline Residences",brand:"Brand name",category:"Homeware",type:"image",ratio:"5/8",src:"assets/Coquette Bow Teacup ☕🎀 Coffee Girlie Aesthetic _ Amazon find _ coffee mug.jpg",featured:true},
 //  {title:"Smart Watch Reveal",brand:"Brand name",category:"Jewelry",type:"image",ratio:"5/8",src:"assets/🩶🩶.jpg",poster:"",featured:true},
 //  {title:"New Model Showcase",brand:"Brand name",category:"sports",type:"image",ratio:"5/8",src:"assets/Pink Stanley Cup _ Tennis Product Photograp.jpg",poster:"",featured:true},
