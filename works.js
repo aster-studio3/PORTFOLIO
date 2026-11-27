@@ -32,7 +32,7 @@ const WORK=[
 //  {title:"Skyline Residences",brand:"Brand name",category:"Homeware",type:"image",ratio:"5/8",src:"assets/Coquette Bow Teacup ☕🎀 Coffee Girlie Aesthetic _ Amazon find _ coffee mug.jpg",featured:true},
 //  {title:"Smart Watch Reveal",brand:"Brand name",category:"Jewelry",type:"image",ratio:"5/8",src:"assets/🩶🩶.jpg",poster:"",featured:true},
 //  {title:"New Model Showcase",brand:"Brand name",category:"sports",type:"image",ratio:"5/8",src:"assets/Pink Stanley Cup _ Tennis Product Photograp.jpg",poster:"",featured:true},
-//   {title:"New Model Showcase",brand:"Brand name",category:"Perfume",type:"image",ratio:"5/8",src:"assets/Miss Dior Cherie Blooming Bouquet 100 мл — ніжний квітковий аромат_edited.jpg",poster:"",featured:true},
+  {title:"New Model Showcase",brand:"Brand name",category:"Perfume",type:"video",ratio:"9/16",src:"assets/YouCut_20261126_163031775.mp4",poster:"assets/VideoCapture_20261127-140035.jpg",featured:true},
 //    {title:"Smart Watch Reveal",brand:"Brand name",category:"Pet Products",type:"image",ratio:"5/8",src:"assets/А Ваш котик заценил уже корм _Холка__.jpg",poster:"",featured:true}
 
 
